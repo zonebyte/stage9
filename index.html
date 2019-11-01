@@ -307,6 +307,18 @@
             background: #FFFFFF;
         }
 
+        .myevent {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.3em;
+            text-align: left;
+            background: #3C6B9C;
+            color: #FFFFFF;            
+            padding: 20px
+            /*width:100%;*/
+        }
+
         .fourth_row .fourth_row_right_column {
             width: 100%;
         }
@@ -1035,32 +1047,111 @@
                             <a href="#">Get Started</a>
                         </button>
                     </div>
-                    <div class="fourth_row_right_column">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th colspan="2">Event Calendar</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Registration</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Internship Starts</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Stage 1 to Stage 10</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Internship Ends</td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div>
+                        <div class=" col-sm-12 mb-5 mt-5">
+                                    <div class="accordion">
+                                        
+                            
+                                    <div class="myevent ">Event Calendar</div>
+                             
+
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <img class="btn"
+                                                        data-toggle="collapse" data-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne"
+                                                        src="https://res.cloudinary.com/drpk8jfdq/image/upload/v1572540136/arrow_szwsdh.png"
+                                                        class="arrow1"  style="visibility: hidden;">                                                       
+                                                    <button
+                                                        class="btn btn-link collapsed first_button" type="button"
+                                                        data-toggle="collapse" data-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne"> Registration 
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                                                <div class="card-body">
+                                                    <div class="accordion_list_styled">
+                                                        Aspiring interns can register <a href="https://hngi7.hng.tech/join-intern.php">Here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <img
+                                                        class="btn collapsed first_button" data-toggle="collapse"
+                                                        data-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo"
+                                                        src="https://res.cloudinary.com/drpk8jfdq/image/upload/v1572540136/arrow_szwsdh.png"  style="visibility: hidden;">
+                                                    <button
+                                                        class="btn btn-link collapsed first_button" type="button"
+                                                        data-toggle="collapse" data-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo"> Internship Starts </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                                                <div class="card-body">
+                                                    <div class="list-unstyled text-dark accordion_list_styled">
+                                                        The Internship starts on the 1st of January 2020
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <img
+                                                        class="btn collapsed second_button" data-toggle="collapse"
+                                                        data-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree"
+                                                        src="https://res.cloudinary.com/drpk8jfdq/image/upload/v1572540136/arrow_szwsdh.png" style="visibility: hidden;">
+                                                    <button
+                                                        class="btn btn-link collapsed second_button" type="button"
+                                                        data-toggle="collapse" data-target="#collapseThree"
+                                                        aria-expanded="false" aria-controls="collapseThree"> Stage 1 to Stage 10 
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
+                                                <div class="card-body">
+                                                    <div class="list-unstyled text-dark accordion_list_styled">
+                                                        The internship starts from Stage 1 and sees user progressing 
+                                                        to the next stage depending on the success in their tasks.
+                                                        Users who are unable to complete their tasks are evicted from the 
+                                                        internship
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h2 class="mb-0 ">
+                                                    <img
+                                                        class="btn collapsed third_button" data-toggle="collapse"
+                                                        data-target="#collapseFour" aria-expanded="false"
+                                                        aria-controls="collapseFour"
+                                                        src="https://res.cloudinary.com/drpk8jfdq/image/upload/v1572540136/arrow_szwsdh.png"  style="visibility: hidden;">
+                                                    <button
+                                                        class="btn btn-link collapsed third_button" type="button"
+                                                        data-toggle="collapse" data-target="#collapseFour" 
+                                                        aria-expanded="false" aria-controls="collapseFour"> Internship Ends
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                                                <div class="card-body">
+                                                    <div class="list-unstyled text-dark accordion_list_styled">
+                                                        The internship ends after 3 months. 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
                     </div>
                 </div>
 
